@@ -1,0 +1,152 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+body {
+  background-color: #f3f5fc;
+}
+
+header {
+  height: 48px;
+  width: 32px;
+  left: 44px;
+  top: 0px;
+  border-radius: 0px;
+}
+
+.main-container {
+  display: flex;
+  margin-left: 80px;
+  margin-bottom: 50px;
+}
+
+.input-texto {
+  margin-top: 90px;
+  margin-right: 90px;
+  border: none;
+  resize: none;
+  background-color: aliceblue;
+  /* tamanho de textarea fixa*/
+}
+
+.input-texto:focus {
+  outline: none;
+}
+
+.input-texto:placeholder-shown {
+  color: black;
+}
+
+.mensagem {
+  border: none;
+  position: relative;
+  margin-top: 40 px;
+  margin-left: 90px;
+  background-image: url("img/messagem.png");
+  background-repeat: no-repeat;
+  resize: none;
+  background-color: aliceblue;
+}
+
+.mensagem:focus {
+  outline: none;
+}
+
+.logo {
+  height: 48px;
+  width: 32px;
+  margin-left: 44px;
+  margin-top: 30px;
+  border-radius: 0px;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.label-info {
+  font-size: 15px;
+  margin-left: 3px;
+  color: darkblue;
+}
+
+.encriptar {
+  background-color: darkblue;
+  color: white;
+  width: 228px;
+  font-size: 18px;
+  border-bottom-left-radius: 30px;
+  cursor: pointer;
+}
+
+.descriptar {
+  background-color: #D8DFE8;
+  color: darkblue;
+  border-radius: 25px;
+  margin-left: 15px;
+  width: 222px;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.texto-section p {
+  font-family: 'Roboto' sans-serif;
+  font-size: 15px;
+  margin-right: 90px;
+  margin-left: 90px;
+}
+
+.texto-section h3 {
+  font-family: 'Roboto' 'Courier New';
+  text-align: left;
+  font-size: 25px;
+  color: black;
+  margin-left: 90px;
+  text-align: center;
+}
+
+#copiar {
+  background-color: darkblue;
+  color: white;
+  border-radius: 30px;
+  width: 100px;
+  font-size: 18px;
+  margin-left: 90px;
+  cursor: pointer;
+}
+
+#limpar {
+  background-color: #D8DFE8;
+  color: darkblue;
+  border-bottom-right-radius: 20px;
+  width: 100px;
+  font-size: 18px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.rodape {
+  position: absolute;
+  background-color: #c0dcdf;
+  color: darkblue;
+  height: 50px;
+  width: 100%;
+  text-align: right;
+  justify-content: center;
+}
+
+p {
+  font-size: 18px;
+  float: left;
+}
+
+.links a {
+  text-decoration: none;
+  cursor: pointer;
+}

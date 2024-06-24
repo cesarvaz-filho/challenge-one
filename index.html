@@ -1,0 +1,64 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decodificador de texto</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&amp;family=Roboto:wght@300&amp;display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div>
+
+      <a href="https://www.alura.com.br/" target="_blank"><img class="logo" src="img/logoalura.png"
+          alt="Logo da Aura"></a>
+    </div>
+
+
+
+
+    <main class="main-container">
+      <section>
+        <textarea class="input-texto" cols="28" rows="9" placeholder="Digite seu texto"></textarea>
+        <div id="img">
+          <img src="img/alerta.png"><label class="label-info">permitido apenas letras minusculas</label>
+        </div>
+        <div class="botoes">
+          <button class="encriptar" onclick="btnEncriptar()">
+            Criptografar
+          </button>
+          <button class="descriptar" onclick="btnDesencriptar()">
+            Descriptografar
+          </button>
+
+        </div>
+      </section>
+      <section class="texto-section">
+        <textarea class="mensagem" id="textearea" cols="20" rows="9" style="background-image: none;"></textarea>
+        <h3>Nenhuma mensagem <br> encontrada</h3>
+        <!--<p>Digite um texto que você deseja<br> criptografar ou descriptografar.</p> // logo trabalho o texto.-->
+        <button id="copiar" onclick="btncopiar()">Copiar</button>
+        <button id="limpar" onclick="btnLimpar()">Limpar</button>
+      </section>
+    </main>
+    <footer class="rodape">
+      <p>Desnvolvido por César Vaz - Challenge One - © 2024</p>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/cesar-vaz-filho/" target="_blank">
+          <img src="img/linkedin.png">
+        </a>
+
+      </div>
+    </footer>
+    <script src="script.js"></script>
+
+
+  </header>
+</body>
+
+</html>
